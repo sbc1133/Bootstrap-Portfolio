@@ -8,7 +8,29 @@ h1{
 }
 h2{
     color: #4aaaa5;
+
 }
+
+a {
+    color:inherit;
+
+}
+a:hover{
+    color: #4aaaa5;
+    text-decoration:none; 
+    cursor:pointer;
+    font-weight: bolder;
+    border-bottom:2px solid #4aaaa5;
+}
+li.active > a {
+	background-color: #666666;
+    color: #4aaaa5;
+}
+#border-custom{
+    border-bottom: 2px solid #cccccc;
+}
+
+
 #header-container{
     background-color:#ffffff;
     font-family: 'Georgia', Times, Times New Roman, serif;
@@ -16,6 +38,7 @@ h2{
 
 #name-header{
     background-color: #4aaaa5;
+   
 }
 #main-container-fluid{
     background-image: url("../images/ep_naturalwhite.png");
@@ -35,6 +58,11 @@ h2{
     margin-right:2rem;
 }
 #myfooter{
-    background-color:grey;
+    background-color:#666666;
     height:40px;
+    color:#ffffff;
+}
+#first{
+    height:200px;
+    width:200px;
 }
