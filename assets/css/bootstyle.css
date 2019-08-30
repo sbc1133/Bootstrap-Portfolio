@@ -2,6 +2,7 @@
 body{
     color:#777777;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    /*background-image: url("../images/ep_naturalwhite.png");*/
 }
 h1{
     color:#ffffff;
@@ -26,6 +27,7 @@ li.active > a {
 	background-color: #666666;
     color: #4aaaa5;
 }
+
 #border-custom{
     border-bottom: 2px solid #cccccc;
 }
@@ -41,11 +43,11 @@ li.active > a {
    
 }
 #main-container-fluid{
-    background-image: url("../images/ep_naturalwhite.png");
-    height:100vh;
+     background-image: url("../images/ep_naturalwhite.png"); 
+    min-height:100vh;
 }
 #main-container{
-    background-color:#ffffff; 
+    background-color:saddlebrown; 
 }
 #bio-image {
     height:200px;
@@ -59,10 +61,15 @@ li.active > a {
 }
 #myfooter{
     background-color:#666666;
-    height:40px;
+    height:50px;
     color:#ffffff;
+    margin-top:5px;
 }
 #first{
     height:200px;
     width:200px;
+}
+#portfolio1{
+    height: 200px;
+    width:  200px;
 }
